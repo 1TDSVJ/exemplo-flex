@@ -1,0 +1,37 @@
+/*Alternando as propriedades do container pai*/
+.box-pai{
+   flex-direction: column; 
+}
+
+/*Alternando as propriedades do container pai*/
+
+/*Classe responsável pela estrutura */
+.box{
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+    height: 100px;
+    text-align: center;
+}
+/*Classe responsável pela estrutura*/
+
+
+
+/*Classe responsável pelo visual*/
+
+.box-1{
+    background-color: aqua;
+}
+
+.box-2{
+    background-color: rgb(67, 221, 221);
+}
+
+.box-3{
+    background-color: rgb(78, 161, 161);
+}
+
+.box-4{
+    background-color: rgb(57, 116, 116);
+}
+/*Classe responsável pelo visual*/
