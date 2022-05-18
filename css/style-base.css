@@ -11,3 +11,27 @@
     color: #ffffff;
 
 }
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+nav{
+    margin-top: 2%;
+}
+nav a{
+    padding: 2%;
+    float: right;
+    border-radius: 5px;
+}
+
+.box-pai{
+    margin: 5%;
+    display: flex;
+    background-color: #67f862;
+    width: 90%;
+    height: 500px;0
+}
