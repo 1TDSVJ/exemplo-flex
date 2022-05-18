@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,5 +10,30 @@
     text-decoration: none;
     background-color: #0000ff; 
     color: #ffffff;
+}
 
+body{
+    font-family: 'lato', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'trebuchet MS', sans-serif;
+}
+
+nav a{
+    padding: 2%;
+    float: right;
+    border-radius: 5px;
+}
+
+nav{
+    padding-top: 2%;
+}
+
+.box-pai{
+    display: flex;
+    background-color: #7cb972;
+    margin: 5%;
+    width: 90%;
+    height: 500px;
 }
