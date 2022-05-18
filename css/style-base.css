@@ -30,10 +30,10 @@ nav a{
 }
 
 .box-pai{
-    margin: 5%;
-    display: flex;
-    background-color: #7cb972;
-    width: 90%;
-    height: 500px;
-}
-
+    width: 99%;
+    height: 900px;
+    margin:10px;
+    padding: 10px;
+    background-color: #dae3d4;
+    border: 1px solid #cccccc;
+  }
