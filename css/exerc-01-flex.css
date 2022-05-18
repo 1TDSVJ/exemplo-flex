@@ -1,0 +1,52 @@
+/*
+    Alternando as propriedades do container pai
+*/
+.box-pai{
+/*
+    flex-direction: padrão em linha
+    flex-direction: column;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+*/
+    flex-direction: row;
+}
+/*
+    Alternando as propriedades do container pai
+*/
+
+/*
+    Classe responsável pela estrutura = BOX
+*/
+.box{
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+    height: 100px;
+    text-align: center;
+}
+/*
+    Classe responsável pela estrutura = BOX
+*/
+
+/*
+    Classe responsável pelo visual = BOX-1
+*/
+.box-1{
+    background-color: aqua;
+}
+
+.box-2{
+    background-color: red;
+}
+
+.box-3{
+    background-color: green;
+}
+
+.box-4{
+    background-color: blue;
+}
+/*
+    Classe responsável pelo visual = BOX-1
+*/
