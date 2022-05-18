@@ -10,6 +10,7 @@
     text-decoration: none;
     background-color: #0000ff; 
     color: #ffffff;
+
 }
 
 body{
@@ -17,22 +18,24 @@ body{
 }
 
 h1,h2,h3{
-    font-family: 'Trebuchet MS',sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
-nav{
-    margin-top:2%;
-}
-nav a{
+nav.a{
     padding: 2%;
     float: right;
     border-radius: 5px;
 }
 
+nav{
+    margin-top: 2%;
+}
+
 .box-pai{
     margin: 5%;
-    display: flex;
-    background-color: #7cb972;
+    display:flex;
+    background-color: #0000ff;
+    margin: 5%;
     width: 90%;
     height: 500px;
 }
