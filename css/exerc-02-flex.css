@@ -1,0 +1,52 @@
+/*
+    Alternando as propriedades do container pai
+*/
+.box-pai{
+    /*
+        flex-wrap
+        flex-wrap: wrap;
+        flex-wrap: nowarp;
+    */
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    /*
+        flex-wrap
+    */
+    
+    /*
+        Classe responsável pela estrutura = BOX
+    */
+    .box{
+        width: 100px;
+        margin: 1%;
+        padding: 1%;
+        height: 100px;
+        text-align: center;
+    }
+    /*
+        Classe responsável pela estrutura = BOX
+    */
+    
+    /*
+        Classe responsável pelo visual = BOX-1
+    */
+    .box-1{
+        background-color: aqua;
+    }
+    
+    .box-2{
+        background-color: red;
+    }
+    
+    .box-3{
+        background-color: green;
+    }
+    
+    .box-4{
+        background-color: blue;
+    }
+    /*
+        Classe responsável pelo visual = BOX-1
+    */
+    
