@@ -1,0 +1,27 @@
+.box{
+    width: 100px;
+    margin: 1%;
+    padding: 1%;
+    height: 100px;
+    text-align: center;
+}
+
+.box-1{
+    background-color: aqua;
+}
+
+.box-2{
+    background-color: brown;
+}
+
+.box-3{
+    background-color: #fff000;
+}
+
+.box-4{
+    background-color: #00ff00;
+}
+.box-pai{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
