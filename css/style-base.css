@@ -20,19 +20,68 @@ h1,h2,h3{
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-nav{
-    margin-top: 2%;
-}
-nav a{
-    padding: 2%;
-    float: right;
-    border-radius: 5px;
-}
-
 .box-pai{
     margin: 5%;
     display: flex;
     background-color: #7e9b88;
     width: 90%;
     height: 500px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e080f;
+    color: #ffffff;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 0.8rem;
+    color: #ffffff;
+}
+.menu a:hover{
+    background-color: #3b0046;
+    color: #ffffff;
+}
+
+/*Criando seção de imagens*/
+#tit-sec{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+.imagens > div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 9.3rem;
+    margin: 0.5rem;
+}
+
+.imagens img{
+    max-width: 100%;
+    display: block;
+}
+
+#tit-users{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.contato{
+    margin: 0 auto;
+    max-width: 50rem;
 }
