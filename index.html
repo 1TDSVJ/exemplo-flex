@@ -7,12 +7,74 @@
     <title>EXEMPLOS</title>
     <link rel="stylesheet" href="./css/style-base.css">
     <link rel="stylesheet" href="./css/exerc-02-flex.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
+   
+
+    <header class="cabecalho">
         <h1>EXEMPLOS FLEXBOX</h1>
-        <nav>
+        <nav class="menu">
             <a href="#" class="active">Home</a>
             <a href="./exerc-01-flex.html" >Exercício-1</a>
+            <a href="./exerc-02-flex.html" >Exercício-2</a>
+            <a href="./exerc-03-flex.html" >Exercício-3</a>
         </nav>
+    </header>
+
+    <h1 id="tit-set">SECTION FLEX</h1>
+
+    <section class="imagens">
+     <div>
+         <img src="img/lobo1.jpg" alt="lobo1">
+         <p>Legenda</p>
+     </div>
+     <div>
+        <img src="img/lobo2.jpg" alt="lobo2">
+        <p>Legenda</p>
+     </div>
+     <div>
+        <img src="img/lobo3.jpg" alt="lobo3">
+        <p>Legenda</p>
+     </div>
+     <div>
+        <img src="img/lobo1.jpg" alt="lobo1">
+        <p>Legenda</p>
+     </div>
+     <div>
+        <img src="img/lobo2.jpg" alt="lobo2">
+        <p>Legenda</p>
+     </div>
+     <div>
+        <img src="img/lobo3.jpg" alt="lobo3">
+        <p>Legenda</p>
+     </div>
+
+    </section>
+
+    <h2 id="tit-users">SECTION USERS</h2>
+    <div>
+        <form action="index.html" method="get">
+            <fieldset>
+                <legend>FALE CONOSCO</legend>
+                <div>
+                   <label for="nmUserId">Nome</label>
+                    <input type="text" name="Users" id="nmUserId" placeholder="Nome">
+                </div>
+                <div>
+                    <label for="emailUserId">Email</label>
+                    <input type="email" name="emailUser" id="emailUserId" placeholder="Email">
+                </div>
+                <div>
+                    <label for="msgUserId">Mensagem</label>
+                    <textarea name="msgUser" id="msgUserId" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                </div>
+            </fieldset>
+            <div class="contato">
+                <button type="button" id="btnEnviar">Enviar</button>
+            </div>
+        </form>
+    </div>
+
 </body>
 </html>
