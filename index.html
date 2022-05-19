@@ -6,13 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXEMPLOS</title>
     <link rel="stylesheet" href="./css/style-base.css">
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
+    
+    <header class="cabecalho">
         <h1>EXEMPLOS FLEXBOX</h1>
-        <nav>
+        <nav class="menu">
             <a href="#" class="active">Home</a>
             <a href="./exerc-01-flex.html">Exercício-1</a>
             <a href="./exerc-02-flex.html">Exercício-2</a>
+            <a href="./exerc-03-flex.html">Exercício-3</a>
         </nav>
+    </header>
+
+    <!-- div*6>img["./img/lobo1.jpg"]+p{Legenda} -->
+
+        <h1 id="tit-sec">SECTION FLEXBOX</h1>
+
+        <section class="imagens">
+            <div>
+                <img src="./img/lobo1.jpg" alt="">
+                <p>Legenda</p>
+            </div>
+            <div>
+                <img src="./img/lobo2.jpg" alt="">
+                <p>Legenda</p>
+            </div>
+            <div>
+                <img src="./img/lobo3.jpg" alt="">
+                <p>Legenda</p>
+            </div>
+            <div>
+                <img src="./img/lobo2.jpg" alt="">
+                <p>Legenda</p>
+            </div>
+            <div>
+                <img src="./img/lobo3.jpg" alt="">
+                <p>Legenda</p>
+            </div>
+            <div>
+                <img src="./img/lobo1.jpg" alt="">
+                <p>Legenda</p>
+            </div>
+        </section>
+
+
+        <h2 id="tit-users">SECTION USERS</h2>
+
+        <div class="contato">
+            <form action="index.html" method="get">
+                <fieldset>
+                    <legend>FALE CONOSCO</legend>
+                    <div>
+                        <label for="nmUserId">Nome</label>
+                        <input type="text" name="nmUser" id="nmUserId" placeholder="Nome">
+                    </div>
+                    <div>
+                        <label for="emailUserId">Email</label>
+                        <input type="emai" name="emailUser" id="emailUserId" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="msgUserId">Mensagem</label>
+                        <textarea name="msgUser" id="msgUserId" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    </div>
+                </fieldset>
+                <div>
+                    <button type="button" id="btnEnviar">Enviar</button>
+                </div>
+            </form>
+        </div>
+
 </body>
 </html>

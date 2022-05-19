@@ -20,14 +20,6 @@ h1,h2,h3{
     font-family: 'Trebuchet MS',sans-serif;
 }
 
-nav{
-    margin-top:2%;
-}
-nav a{
-    padding: 2%;
-    float: right;
-    border-radius: 5px;
-}
 
 .box-pai{
     width: 99%;
@@ -37,3 +29,83 @@ nav a{
     background-color: #dae3d4;
     border: 1px solid #cccccc;
   }
+
+  /* estilizar o menu com flex */
+  .cabecalho{
+      display: flex;
+      justify-content: space-between;
+      background-color: #121112;
+      color: #fff;
+      align-items: center;
+  }
+
+  .menu{
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .menu a{
+      text-decoration: none;
+      margin-left: 1rem;
+      padding: 0.8rem;
+      border-radius: 5px;
+      color: #fff;
+  }
+
+  .menu a:hover{
+      background-color: brown;
+      color: #fff;
+  }
+  
+
+  /* estilizar o menu com flex */
+
+
+  /* CRIANDO SEÇÃO DE IMAGENS OU ELEMENTOS */
+
+  #tit-sec{
+      text-align: center;
+      margin-top: 6.25rem;
+  }
+
+  .imagens{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      max-width: 50rem;
+  }
+
+  .imagens > div{
+      /* flex:1 1 9.3rem; */
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 9.3rem;
+      margin: 0.5rem;
+  }
+  
+
+  .imagens img{
+      max-width: 100%;
+      display: block;
+  }
+
+  .imagens p{
+      text-align: center;
+  }
+
+  /* CRIANDO SEÇÃO DE IMAGENS OU ELEMENTOS */
+
+
+  /* SEÇÃO CONTATO */
+
+  #tit-users{
+      text-align: center;
+      margin-top: 6.25rem;
+  }
+
+    .contato{
+        margin: 0 auto;
+        max-width: 50rem;
+    }
+
+  /* SEÇÃO CONTATO */
