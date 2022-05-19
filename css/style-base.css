@@ -8,7 +8,7 @@
 
 .active{
     text-decoration: none;
-    background-color: #0000ff; 
+    background-color: #4545ee; 
     color: #ffffff;
 
 }
@@ -21,15 +21,6 @@ h1,h2,h3{
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-nav{
-    margin-top: 2%;
-}
-nav a{
-    padding: 1%;
-    float: right;
-    border-radius: 5px;
-}
-
 .box-pai{
     margin: 5%;
     display: flex;
@@ -38,3 +29,64 @@ nav a{
     height: 500px;
     
 }
+
+/* Estilizar o menu*/
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #121112;
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem;
+}
+
+.menu a:hover{
+    background-color: #4545ee;
+}
+/* Estilizar o menu*/
+
+/* CRIANDO SEÇÃO DE IMAGENS OU ELEMENTOS*/
+#tit-sec{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+.imagens img{
+    display: block;
+    max-width: 100%;
+}
+
+.imagens > div{
+    flex: 1 1 9.3rem;
+    margin: 0.5rem;
+}
+
+.imagens > div > p{
+    text-align: center;
+}
+/* CRIANDO SEÇÃO DE IMAGENS OU ELEMENTOS*/
+
+/* FORMUlÁRIO*/
+.contato{
+    margin: 0 auto;
+    max-width: 50rem;
+}
+/* FORMUlÁRIO*/
