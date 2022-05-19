@@ -21,13 +21,13 @@ h1,h2,h3{
 }
 
 nav a{
-    padding: 2%;
+    padding: 1%;
     float: right;
     border-radius: 5px;
 }
 
 nav{
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 .box-pai{
@@ -37,3 +37,75 @@ nav{
     width: 90%;
     height: 500px;
 }
+
+/* Estilizar o menu flex */
+
+.cabecalho{
+    display: flex;
+    background-color: #121112;
+    color: #ececec;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu a{
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.menu a:hover{
+    background-color: brown;
+    color: #fff;
+}
+/* Estilizar o menu flex */
+
+/* CRIANDO SEÇÃO IMAGENS*/
+
+#tit-sec{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 50rem;
+    text-align: center;
+}
+
+.imagens > div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 9.3rem;
+    margin: 0.5rem
+}
+
+.imagens img{
+    max-width: 100%;
+    display: block;
+}
+
+
+/* CRIANDO SEÇÃO IMAGENS*/
+
+/* SEÇÃO CONTATO*/
+
+#tit-users{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.contato{
+    margin: 0 auto;
+    max-width: 50rem;
+
+}
+
+/* SEÇÃO CONTATO*/
